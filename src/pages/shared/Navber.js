@@ -5,22 +5,22 @@ const Navber = () => {
   const menuIcons = (
     <>
       <li>
-        <Link to="/">Home</Link>
+        <Link className="text-white" to="/">Home</Link>
       </li>
       <li>
-        <Link to="/appointment">Appointment</Link>
+        <Link className="text-white" to="/appointment">Appointment</Link>
       </li>
       <li>
-        <Link to="/review">Review</Link>
+        <Link className="text-white" to="/review">Review</Link>
       </li>
       <li>
-        <Link to="/contact">Contact</Link>
+        <Link className="text-white" to="/contact">Contact</Link>
       </li>
       <li>
-        <Link to="/about">About us</Link>
+        <Link className="text-white" to="/about">About us</Link>
       </li>
       <li>
-        <Link to="/login">Login</Link>
+        <Link className="text-white" to="/login">Login</Link>
       </li>
     </>
   );
@@ -52,7 +52,7 @@ const Navber = () => {
            {menuIcons}
             </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-xl">Doctors Portal</a>
+          <a class="btn btn-ghost normal-case text-xl text-sky-400 pl-10">Doctors Portal</a>
         </div>
         <div class="navbar-end hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
